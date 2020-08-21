@@ -1,0 +1,782 @@
+.top-info-bar {
+	background: #000;
+	width: 100%;
+	display: block;
+	color: #fff;
+    padding: 15px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.view-plan-link {
+	background: none;
+	border: 0;
+	padding-left: 6px;
+	text-decoration: underline;
+}
+.top-info-bar span{font-weight: bold;}
+.backbtn {
+	color: grey;
+	background: none;
+	border: none;
+	padding-top: 25px;
+}
+.completedProjects .projectDetail{border-bottom: 1px solid #C4C4C4}
+.rightBordered{border-right:1px solid #000;}
+.topProjectTitle{font-weight: bold;width: 100%;text-align: center;color: #000}
+.topApplicantTitle{font-weight: bold;color: #000}
+.mainApplicantsHolder {
+	width: 90%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-top: 15px !important;
+	margin-bottom: 15px !important;
+	text-align: center;
+	box-shadow: 1px 03px 3px #a6a6a6;
+	border-radius: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background: #f5f6f7;
+}
+/* .mainApplicantsHolder img {
+	width: 50%;
+	border-radius: 50%;
+	margin: 0 auto;
+	margin-top: 28px;
+	margin-bottom: 28px;
+} */
+.applicantTitle {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    display: block;
+    color: #000;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-transform: capitalize;
+}
+.applicantBtn {
+	margin-bottom: 15px;
+	border: 1px solid #8dced3;
+	padding: 10px 5px;
+	background: none;
+	border-radius: 8px;
+	color: #8dced3;
+	font-weight: bold;
+	width: 80%;
+	/* display: block; */
+}
+.applicantBtn:hover{
+	background: #8dced3;
+	color: #fff;
+}
+.asign-project-popup .popupHead {
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.asign-project-popup .applicantBtn {
+	width: 40%;
+	margin-left: 5%;
+}
+.asign-project-popup .popupHead span{color: #5ec2ca;}
+.inner-tabs-holder {
+	text-align: center;
+	display: block;
+}
+.inner-tabs-holder {
+	border-bottom: 1px solid #b7b6b6;
+	margin-bottom: 50px;
+}
+.inner-tabs-holder li {
+	display: inline-block;
+	padding: 20px;
+	font-family: NexaBold;
+	font-style: normal;
+	font-size: 18px;
+	line-height: 18px;
+	color: #bdbdbd;
+	cursor:pointer;
+	/* border-bottom: 1px solid black; */
+}
+.activeTab{
+	color:#5bc0de !important;
+}
+.inner-tabs-holder li input {
+	background: none;
+	border: none;
+}
+p.applicantApplied {
+    text-transform: uppercase;
+	padding-left: 10px;
+	padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.popup-content.viewprofile_applicantPop-content,.popup-content.accept_applicantPop-content {
+    width: 70% !important;
+}
+
+p.accept_applicant_head {
+    font-family: NexaBold !important;
+    color: #88CDD3 !important;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold !important;
+    text-align: center;
+}
+img.popFinalisedUser{   
+	margin-top: 50px !important;
+    margin: 0 auto !important;
+	display: block !important;
+	border-radius: 50%;
+    max-width: 90px !important;
+}
+.acceptApplicantLeftSection {
+    padding-top: 50px;
+}
+p.popApplicantTitle {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #000 !important;
+    text-transform: capitalize;
+}
+p.remiderPopUp span {
+    color: #F2994A;
+    font-family: NexaLight;
+}
+p.remiderPopUp {
+    color: #000 !important;
+    font-size: 14px !important;
+    font-family: NexaLight !important;
+    text-align: center;
+}
+
+input.conformRequest {
+    color: grey;
+    background: none;
+    width: 80%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 1px solid #C4C4C4;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+.accept_applicantPop-overlay .closeAcceptPop{width:100%;text-align: right}
+.accept_applicantPop-overlay .closeAcceptPop img{width:15px}
+.border-right-section { border-right: 1px solid lightgrey; }
+.accept_applicantPop-overlay p.unSuccessMsg {
+    font-family: NexaBold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 24px;
+    display: flex;
+    text-align: left;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #88CDD3;
+}
+
+.accept_applicantPop-overlay p.noticeTocharity {
+    color: #000;
+    font-family: NexaLight;
+    font-size: 13px;
+}
+.accept_applicantPop-overlay .acceptApplicantRightSection img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.accept_applicantPop-overlay .acceptApplicantRightSection .reasonSelectPicker {
+    padding: 5px;
+    margin-top: -22px;
+    border: 1px solid lightgrey;
+}
+.rightSectionOrgLogo {
+    width: 15%;
+    float: left;
+}
+
+.rightSectionProjectTitle {
+    width: 85%;
+    float: left;
+}
+
+
+.rightSectionProjectTitle h2.topProjectTitle {
+    font-family: NexaBold;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    letter-spacing: 0.1em;
+}
+.rightSectionProjectTitle .projectlabelbox {
+    float: left;
+    position: relative;
+    text-align: left;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+ul.projectDetailsBottomArea li {
+    display: inline-table;
+    width: 33.33%;
+    text-align: center;
+}
+
+ul.projectDetailsBottomArea li p {
+    color: #676767;
+    font-family: NexaBold;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.projectImpact_accept .projectImpact_head {
+	color: #88CDD3;
+	font-family: NexaBold;
+	font-weight: normal;
+	font-size: 25px;
+}
+
+.projectImpact_accept p {
+    font-family: NexaLight;
+    color: #676767;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    padding: 10px;
+}
+
+h4.projectInfo_head {
+    font-family: NexaBold;
+    font-size: 30px;
+}
+.imgNdHead .img {
+    float: left;
+    width: 10%;
+}
+
+.imgNdHead .text {
+    float: left;
+    width: 90%;
+}
+
+.imgNdHead .img img {
+    width: 40px;
+}
+
+.imgNdHead .text p {
+    text-align: left;
+    padding-top: 10px;
+    color: #88CDD3;
+    font-size: 19px;
+    font-family: NexaBold;
+}
+
+.projectDetail.projectInfo_accept ul li {
+    list-style: circle;
+    text-align: left;
+    width: 90%;
+    margin-left: 20px;
+    color: #676767;
+    font-family: NexaLight;
+    font-weight: bold;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.acceptApplicantRightSection {
+    margin-bottom: 15px;
+}
+.acceptApplicantRightSection .reasonSelectPicker {
+    background:  #FFFFFF;
+    border: 1px solid #C4C4C4 !important;
+    border-radius: 8px;
+}
+
+
+/* view profile popup css*/
+.rightBordered .viewProfileImage {
+	max-width: 138px !important;
+	display: block !important;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.rightBordered .viewProfileAcceptUserTitle {
+	font-family: NexaLight;
+	font-weight: bold;
+	font-size: 22px;
+	text-align: center;
+	color: #000000;
+	text-transform: capitalize;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.rightBordered .leftSecSmallHead {
+	font-family: NexaLight;
+	font-weight: bold;
+	font-size: 14px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #000;
+	padding-top: 20px;
+}
+.rightImpactSection span {
+
+    font-family: NexaBold;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 14px;
+    color:  #88CDD3;
+    padding: 15px;
+    display: inline-block;
+
+}
+.rightImpactSection {
+    color: #6D6D6D;
+    font-family: Roboto;
+}
+
+.rightSectionLinkedIn img {
+    width: 38px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.acceptApplicantLeftSection .approvedAcceptVolunteer{
+    color: #88CDD3;
+	border-color: #88CDD3;}
+
+.viewprofile_applicantPop-content .rightSectionFullName {
+	font-family: NexaLight;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: left;
+	color: #000000;
+	text-transform: capitalize;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.viewprofile_applicantPop-content .rightFullBio {
+	font-family: Roboto;
+	font-size: 16px;
+	color: #000000;
+	font-weight: normal;
+}
+.viewprofile_applicantPop-content .histTitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+}
+.viewprofile_applicantPop-content .histTimeFrame {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 14px;
+	color: #676767;
+}
+.viewprofile_applicantPop-content .histDescription {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	align-items: center;
+}
+.assignedUserHolderForCharity .userName {
+    width: 60%;
+    float: left;
+    text-align: left;
+    padding: 10px;
+    color: #353535;
+    font-family: NexaBold;
+}
+.assignedUserHolderForCharity .userImage {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+ 
+.assignedUserHolderForCharity .userImage img {
+    border-radius: 50%;
+    max-width: 70px !important;
+}
+.assignedUserHolderForCharity .userName .userNameInner {
+    font-size: 21px;
+    text-transform: capitalize;
+    padding-top: 15px;
+    font-family: NexaBold;
+    color: #000;
+    text-align: left;
+}
+
+.assignedUserBtnHolder{clear: both; width: 100%;}
+.assignedUserBtnHolder input{   
+    border: 1px solid #88CDD3;
+    background: transparent;
+    padding: 15px;
+    border-radius: 5px;
+    margin-right: 10px;
+    color: #88CDD3;
+    font-family: NexaBold;}
+
+.progressbar.charityReviewbar li{
+width: 33%
+}
+
+.dueHead{font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;}
+
+/* review page css */
+.reviewMainTopHead{padding-top: 30px;}
+.reviewProjectUserData {
+    text-align: center;
+}
+.reviewProjectUserData img {
+    width: 150px;
+    border-radius: 50%;
+}
+.reviewProjectUserData p {
+    font-family: NexaBold;
+    text-transform: capitalize;
+    padding-top: 25px;
+    font-size: 25px;
+}
+
+.reviewwork_give {
+	border: 1px solid #9F9F9F;
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.reviewwork_label {
+	font-family: NexaLight;
+	font-size: 16px;
+	line-height: 19px;
+	color: #3D3D3B;
+	font-weight: bold;
+    letter-spacing: 0.04em;
+    width: 100%;
+    padding-top: 25px;
+}
+.reviewwork_smalltext {
+	font-family: NexaLight;
+	font-weight: bold;
+	font-size: 13px;
+	line-height: 14px;
+	color: #9F9F9F;
+	letter-spacing: 0.04em;
+}
+.reviewwork_label span {
+	color: red;
+}
+.reviewwork_textarea {
+	background: #FFFFFF;
+	border: 1px solid #C4C4C4;
+	box-sizing: border-box;
+	border-radius: 5px;
+	width: 100%;
+    height: 150px;
+    padding: 10px;
+}
+.reviewwork_orholder {
+	padding: 15px;
+	font-family: NexaBold;
+	font-size: 25px;
+	text-align: center;
+	width: 100%;
+}
+.reviewwork_counterhold {
+	font-family: NexaLight;
+	font-size: 12px;
+	line-height: 14px;
+	color: #9F9F9F;
+	text-align: right;
+	padding-top: 5px;
+}
+.reviewwork_checkbox input, .reviewwork_checkbox p {
+	display: inline;
+	margin-right: 10px !important;
+	color: #676767;
+	font-size: 12px;
+	vertical-align: bottom;
+	font-family: NexaLight;
+    font-weight: bold;    
+}
+.reviewwork_submitwork {
+	background: #88CDD3;
+	border-radius: 5px;
+	color: #fff;
+	width: 70%;
+	display: block;
+	margin: 0 auto;
+	padding: 15px;
+	border: none;
+	font-weight: bold;
+	font-family: NexaBold;
+	font-size: 20px;
+	letter-spacing: 0.2em;
+}
+.reviewworkRightSection {
+	margin-top: 25px;
+	padding: 10px;
+	width: 80%;
+}
+.reviewwork_submttedLink {
+	border: 1px solid #C4C4C4;
+	border-radius: 5px;
+	padding: 10px 15px;
+	width: 100%;
+}
+.reviewworkRightSection .reviewwork_downloadBtn {
+    background:  #88CDD3;
+    border-radius: 5px;
+    color: #fff;
+    width: 100%;
+    display: block;    
+    margin: 0 auto;
+    padding: 15px;
+    border: none;
+    font-weight: bold;
+    font-family: NexaBold;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    text-align: center;
+}
+.reviewWork_uploadedText {
+	height: 150px;
+	overflow-y: auto;
+	font-family: NexaLight;
+	font-size: 15px;
+}
+
+p.designationAndCompany {
+	font-family: NexaLight !important;
+    font-weight: bold;
+    padding-top: 0 !important;
+    font-size: 18px !important;
+}
+.completeLabel{color: #1AB700;text-align: center;padding:5px; }
+.completeTextInfo {
+	text-align: center;
+	font-family: NexaLight;
+	font-weight: bold;
+    letter-spacing: 0.08em;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.completedGreyText{color: #676767;text-align: center;font-family: NexaLight;letter-spacing: 0.08em;    padding-left: 10px;    padding-right: 10px;}
+.givenFeedback {
+	text-align: center;
+	color: #676767;
+	font-family: NexaLight;
+	font-weight: bold;
+	max-height: 150px;
+	overflow-y: auto;
+	padding: 10px;
+}
+.projectBox_new .BannerOverlay {
+	height: 150px;
+	overflow: hidden;
+}
+@media only screen and (max-width: 950px) {
+	.popup-content.viewprofile_applicantPop-content,.popup-content.accept_applicantPop-content {
+		width: 90% !important;
+    }
+    .rightBordered{border-right:0px solid #000 !important;}
+  }
+
+  .star-rating-cont {
+    text-align: center;
+}
+
+.feedbackwork_give {
+    width: 80%;
+    margin: 5% 0 5% 10%;
+}
+
+.feedback-overlay {
+    position: absolute;
+    width: 98%;
+    height: 90%;
+	top: 55px;
+	background: url(/images/no_view.png) no-repeat;
+    background-position: 40% 100%;
+ }
+
+ .section-two-feedback {
+    position: relative;
+}
+
+h1.heading-feedback {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: #000000;
+    align-items: center;
+    text-align: center;
+}
+
+.backbtn-feedback {
+    color: grey;
+    background: none;
+    border: none;
+    padding-left: 25px;
+    line-height: 88px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.no-feedback > p:first-child {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 38px;
+}
+
+.no-feedback > p:nth-child(2) {
+    filter: blur(3px);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 110px;
+}
+
+.no-review-head {
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 90px;
+}
+
+.no-review .feedbackwork_give > p {
+    font-size: 16px;
+    line-height: 19px;
+    color: black;
+    text-align: center;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 15%;    
+    font-family: NexaLight;
+    font-weight: normal;
+}
+
+.feedbackProjectUserData > p:nth-child(2) {
+    font-family: NexaBold;
+    text-transform: capitalize;
+    padding-top: 25px;
+    font-size: 24px;
+    color: black;
+}
+.feedbackProjectUserData > p:nth-child(3) {
+    text-transform: capitalize;
+    padding-top: 25px;
+    font-size: 18px;
+    color: black;
+    font-family: NexaLight;
+    font-weight: normal;
+}
+
+input.reviewwork_editwork {
+    border: 2px #88CDD3 solid;
+    border-radius: 5px;
+    color: #88CDD3;
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    font-weight: bold;
+    font-family: NexaBold;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    background-color: #fff;
+}
+
+input.reviewwork_editwork:hover {
+    border-radius: 5px;
+    color: #fff;
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    border: none;
+    font-weight: bold;
+    font-family: NexaBold;
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    background-color: #88CDD3;
+}
+.pagination {	
+	width: 100%;
+    clear: both;
+    text-align: center;
+}
+.pagination > li {
+    display: inline-block !important;
+}
+.viewVolunteerProfile .profilePic {
+	max-width: 150px !important;
+	max-height: 150px !important;
+	margin: 0 auto;
+	display: block !important;
+	border-radius: 50%;
+}
+.charity-proj-view-profile{
+    background: transparent;
+    border: none;
+    display: inherit;
+    width: 20px;
+    float: right;
+}
+
+.mainApplicants-image {
+    height: 170px; margin: 0 0 15px;
+}
+.mainApplicants-image img{ margin: 0 !important;  }
+
+.assigned-block{
+  font-family: 'NexaBold';
+  border: 2px solid gray;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: grey !important;
+  border-radius: 5px;
+  background: transparent !important;
+  display: inline-block;
+  padding: 20px 15px;
+  cursor: pointer;
+}
+.viewprofile_applicantPop-content{ overflow: auto;}
